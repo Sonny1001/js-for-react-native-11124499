@@ -7,3 +7,15 @@ function processArray(arrayOfNumbers) {
         }
     });
 }
+
+
+function formatArrayStrings(strings, numbers) {
+    return strings.map((str, number) => {
+        const num = numbers[number];
+        if (num % 2 === 0) {
+            return str.toUpperCase(); // Capitalizes the string if the number is even
+        } else {
+            return str.toLowerCase(); // Converts the string to lowercase if the number is odd
+        }
+    });
+}
