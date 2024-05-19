@@ -19,3 +19,6 @@ function formatArrayStrings(strings, numbers) {
         }
     });
 }
+
+
+module.exports = { processArray, formatArrayStrings };
