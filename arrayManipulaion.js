@@ -8,6 +8,8 @@ function processArray(arrayOfNumbers) {
     });
 }
 
+module.exports = { processArray };
+
 
 function formatArrayStrings(strings, numbers) {
     return strings.map((str, number) => {
